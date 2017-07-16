@@ -82,7 +82,7 @@ a:visited {
   font-weight: 900;
 }
 
-.header h1 i {
+.header h1 em {
   font-weight: 300;
   color: rgba(0, 0, 0, .2);
 }
@@ -100,7 +100,7 @@ a:visited {
   line-height: 1.2rem;
 }
 
-.header p i {
+.header p em {
   font-style: italic;
 }
 
@@ -138,26 +138,45 @@ section h2 {
   font-weight: 700;
 }
 
-.project-entry {
+.project-entry,
+.work-entry {
   margin-top: 1rem;
   border-top: 2px solid rgba(0, 0, 0, .1);
   padding-top: 1rem;
 }
 
-.project-entry:first-child {
+.project-entry:first-child,
+.work-entry:first-child {
   margin-top: 0;
   padding-top: 0;
   border-top: none;
 }
 
-.project-entry div {
+.project-entry div,
+.work-entry div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.project-entry div span {
+@media (max-width: 660px) {
+  .work-entry div {
+    flex-direction: column;
+  }
+}
+
+.project-entry div em,
+.work-entry div em {
+  color: rgba(0, 0, 0, .5);
+}
+
+.work-entry .description em {
+  color: blue;
+}
+
+.project-entry div span,
+.work-entry div span {
   font-size: .8rem;
   font-style: italic;
   color: rgba(0, 0, 0, .2);
@@ -192,10 +211,23 @@ section h2 {
   background-color: purple;
 }
 
+.lang {
+  background-color: royalblue;
+}
+
 .fe {
   background-color: orange;
 }
 
 .be {
   background-color: green;
+}
+
+.devops {
+  background-color: orangered;
+}
+
+.colophon {
+  margin-top: 5rem;
+  text-align: center;
 }
