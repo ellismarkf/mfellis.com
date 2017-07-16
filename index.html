@@ -28,14 +28,15 @@
       <div class="section-body">
         <p><strong>Hi, I'm Mark.</strong></p>
         <p>By day, I'm a software engineer based in <a href="https://en.wikipedia.org/wiki/Clutch_City">Clutch City</a>, and I build applications for the web, mostly with Javascript. I learn quickly, think analytically, and I favor the right tool over the popular one. I'm currently open to new opportunities, either in the Houston, TX area, or working remotely.</p>
-        <p>Outside of work, I build games for the web, and collaborate with friends to make music, films, comics, and occasionally food. I also take an embarrassing number of <a href="https://photos.app.goo.gl/R3SCH85gcpp3xiyu2">photos of my dog, Gatsby</a>, and can quote nearly all of Jurassic Park.</p>
+        <p>Outside of work, <a href="https://github.com/ellismarkf">I build games</a> for the web, and collaborate with friends to make music, films, comics, and occasionally food. I also take an embarrassing number of <a href="https://photos.app.goo.gl/R3SCH85gcpp3xiyu2">photos of my dog, Gatsby</a>, and can quote nearly all of Jurassic Park.</p>
         <img src="./img/sxsw3.png" alt="Yours truly.">
       </div>
     </section>
     <section id="projects">
       <h2>projects</h2>
-      <div class="section-body">
-        <div class="project-entry">
+      <div class="section-body" id="entries">
+        <p><strong>These are some of the projects I'm proud of (aside from this beautiful website).</strong></p>
+        <div class="project-entry" id="snake">
           <div>
             <p><strong><a href="https://github.com/ellismarkf/snake">Snake</a></strong></p>
             <span>Jul 2017</span>
@@ -48,12 +49,12 @@
             <span class="tag be">socket.io</span>
           </p>
         </div>
-        <div class="project-entry">
+        <div class="project-entry" id="minesweeper">
           <div>
             <p><strong><a href="https://mineswept.com/">Minesweeper</a></strong></p>
             <span>Jun 2017</span>
           </div>
-          <p>The classic game of luck and logic, but with the ability to design and share custom minefields! Designed as a serverless application, with a <a href="https://github.com/ellismarkf/minesweeper-api">backend API</a> deployed on Heroku, and the <a href="https://github.com/ellismarkf/minesweeper">client-side application</a> deployed with <a href="https://zeit.co/now">Now</a>.</p>
+          <p>The classic game of luck and logic, but with the ability to design and share custom minefields! Designed as a serverless application, with a Node <a href="https://github.com/ellismarkf/minesweeper-api">backend API</a> deployed on Heroku, and a React <a href="https://github.com/ellismarkf/minesweeper">client-side application</a> deployed with <a href="https://zeit.co/now">Now</a>.</p>
           <p>
             <span class="tag code">code</span>
             <span class="tag fe">javascript</span>
@@ -65,12 +66,12 @@
             <span class="tag be">REST</span>
           </p>
         </div>
-        <div class="project-entry">
+        <div class="project-entry" id="wedding">
           <div>
             <p><strong><a href="https://lisyand.me">Wedding RSVP App</a></strong></p>
             <span>May 2016</span>
           </div>
-          <p>You know you’re a developer when you write your own <a href="https://github.com/ellismarkf/wedding-redux">wedding RSVP program</a> and use Google’s Sheets API to turn a Google Drive spreadsheet into a free database. This project also needed to support i10n, since my wife’s family only speaks Spanish.</p>
+          <p>A React <a href="https://github.com/ellismarkf/wedding-redux">wedding RSVP program</a> using Google’s Sheets API to turn a Google Drive spreadsheet into a free database. This project also needed to support i10n, since my wife’s family only speaks Spanish.</p>
           <p>
             <span class="tag code">code</span>
             <span class="tag fe">javascript</span>
@@ -82,12 +83,12 @@
             <span class="tag be">google-sheets-api</span>
           </p>
         </div>
-        <div class="project-entry">
+        <div class="project-entry" id="brainforest">
           <div>
             <p><strong><a href="https://github.com/ellismarkf/brainforest">Brainforest</a></strong></p>
             <span>Mar 2016</span>
           </div>
-          <p>Reference implementation of Braintree’s Drop-In UI, rebuilt in a declarative paradigm using React and Redux.</p>
+          <p>Reference implementation of <a href="https://developers.braintreepayments.com/guides/drop-in/javascript/v2">Braintree’s Drop-In UI</a>, built in a declarative paradigm using React and Redux.</p>
           <p>
             <span class="tag code">code</span>
             <span class="tag fe">javascript</span>
@@ -97,7 +98,7 @@
             <span class="tag be">braintree</span>
           </p>
         </div>
-        <div class="project-entry">
+        <div class="project-entry" id="matchsticks">
           <div>
             <p><strong><a href="http://matchsticks-nim.herokuapp.com/">Matchsticks</a></strong></p>
             <span>Oct 2015</span>
@@ -114,7 +115,7 @@
             <span class="tag be">socket.io</span>
           </p>
         </div>
-        <div class="project-entry">
+        <div class="project-entry" id="airdrum">
           <div>
             <p><strong><a href="http://wowmarkandray.com/airdrum">AirDrum</a></strong></p>
             <span>Apr 2015</span>
@@ -128,10 +129,10 @@
             <span class="tag be">socket.io</span>
           </p>
         </div>
-        <div class="project-entry">
+        <div class="project-entry" id="transliteratr">
           <div>
             <p><strong><a href="http://transliteratr.herokuapp.com/">Transliteratr</a></strong></p>
-            <span>Apr 2015</span>
+            <span>Jul 2014</span>
           </div>
           <p>“Translates” user text input into saveable tiled mosaics of <a href="https://github.com/ellismarkf/mosaic">randomly generated colors</a>.</p>
           <p>
@@ -148,7 +149,7 @@
     <section id="experience">
       <h2>experience</h2>
       <div class="section-body">
-        <p><strong>You didn't think I was going to list my complete work history here, did you?</strong></p>
+        <p><strong>3 years as a software engineer, working on enterprise user interfaces; </strong></p>
         <p><a href="./assets/resume.pdf">Download my resume</a>, or feel free to check out my <a href="https://www.linkedin.com/in/mfellis/">LinkedIn profile</a>, <a href="https://stackoverflow.com/users/story/4848389">StackOverflow developer story</a>, and <a href="https://github.com/ellismarkf">Github account</a> to get a sense of my background, and the kinds of projects I've worked on so far.</p>
         <p>If my experience looks like a good match for a role you're trying to fill, <a href="mailto:ellismarkf@gmail.com?Subject=Hey%20Mark,%20let's%20talk">let me know</a>!</p>
       </div>
