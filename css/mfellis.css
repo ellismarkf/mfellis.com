@@ -195,11 +195,12 @@ section h2 {
 .tag {
   border-radius: 5px;
   color: white;
-  padding: 5px;
+  padding: 3px 5px;
   margin-top: 5px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: .7rem;
 }
 
 /* .tag:hover {
