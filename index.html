@@ -27,8 +27,8 @@
       <h2>about me</h2>
       <div class="section-body">
         <p><strong>Hi, I'm Mark.</strong></p>
-        <p>By day, I'm a software engineer based in <a href="https://en.wikipedia.org/wiki/Clutch_City">Clutch City</a>, and I build applications for the web, mostly with Javascript.</p>
-        <p>Outside of work, <a href="https://github.com/ellismarkf">I build games</a> for the web, and collaborate with friends to make music, films, comics, and occasionally food. I also take an embarrassing number of <a href="https://photos.app.goo.gl/R3SCH85gcpp3xiyu2">photos of my dog, Gatsby</a>, and can quote nearly all of Jurassic Park.</p>
+        <p>By day, I'm a software engineer based in <a href="https://en.wikipedia.org/wiki/Clutch_City">Clutch City</a>, and I build applications for the web, mostly with Javascript. <a href="https://youtu.be/VrVZHxH2O1I?t=32s" target="_blank">Mostly.</a></p>
+        <p>Outside of work, I write, make <a href="https://github.com/ellismarkf">games</a>, and collaborate with friends to make music, films, comics, and occasionally food. I also take an embarrassing number of <a href="https://photos.app.goo.gl/R3SCH85gcpp3xiyu2">photos of my dog, Gatsby</a>, and can quote nearly all of Jurassic Park.</p>
         <img src="./img/sxsw3.png" alt="Yours truly.">
       </div>
     </section>
@@ -37,24 +37,24 @@
       <div class="section-body" id="entries">
         <div class="project-entry" id="snake">
           <div>
-            <p><strong><a href="https://github.com/ellismarkf/snake">Snake</a></strong></p>
-            <span>Jul 2017</span>
+            <p><strong><a href="https://snakepit.now.sh">Snake</a></strong></p>
+            <span class="entry-date">Jul 2017</span>
           </div>
           <p>Multiplayer Snake. Uses WebSockets to connect players online. Implements snakes as <a href="https://github.com/ellismarkf/snake/blob/master/snaque.js">circular buffers</a> with O(1) reads and writes, and uses raw ES5 for optimal performance.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag fe">html5-canvas</span>
             <span class="tag be">socket.io</span>
-          </p>
+          </div>
         </div>
         <div class="project-entry" id="minesweeper">
           <div>
-            <p><strong><a href="https://mineswept.com/">Minesweeper</a></strong></p>
-            <span>Jun 2017</span>
+            <p><strong><a href="https://mineswept.now.sh/">Minesweeper</a></strong></p>
+            <spa class="entry-date"n>Jun 2017</span>
           </div>
           <p>The classic game of luck and logic, but with the ability to design and share custom minefields! Designed as a serverless application, with a Node <a href="https://github.com/ellismarkf/minesweeper-api">backend API</a> deployed on Heroku, and a React <a href="https://github.com/ellismarkf/minesweeper">client-side application</a> deployed with <a href="https://zeit.co/now">Now</a>.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag fe">inferno.js</span>
@@ -65,15 +65,15 @@
             <span class="tag be">postgresql</span>
             <span class="tag be">express</span>
             <span class="tag be">rest-api</span>
-          </p>
+          </div>
         </div>
         <div class="project-entry" id="wedding">
           <div>
             <p><strong><a href="https://lisyand.me">Wedding RSVP App</a></strong></p>
-            <span>May 2016</span>
+            <span class="entry-date">May 2016</span>
           </div>
           <p>A React <a href="https://github.com/ellismarkf/wedding-redux">wedding RSVP program</a> using Google’s Sheets API to turn a Google Drive spreadsheet into a free database. This project also needed to support i10n, since my wife’s family only speaks Spanish.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag fe">react</span>
@@ -82,15 +82,15 @@
             <span class="tag devops">babel</span>
             <span class="tag devops">webpack</span>
             <span class="tag be">google-sheets-api</span>
-          </p>
+          </div>
         </div>
         <div class="project-entry" id="brainforest">
           <div>
             <p><strong><a href="https://github.com/ellismarkf/brainforest">Brainforest</a></strong></p>
-            <span>Mar 2016</span>
+            <span class="entry-date">Mar 2016</span>
           </div>
           <p>Reference implementation of <a href="https://developers.braintreepayments.com/guides/drop-in/javascript/v2">Braintree’s Drop-In UI</a>, built in a declarative paradigm using React and Redux.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag fe">react</span>
@@ -99,15 +99,15 @@
             <span class="tag be">express</span>
             <span class="tag be">rest-api</span>
             <span class="tag be">braintree</span>
-          </p>
+          </div>
         </div>
         <div class="project-entry" id="matchsticks">
           <div>
             <p><strong><a href="http://matchsticks-nim.herokuapp.com/">Matchsticks</a></strong></p>
-            <span>Oct 2015</span>
+            <span class="entry-date">Oct 2015</span>
           </div>
           <p>A React-powered, two player, online nim game, using WebSockets to push updates to players. <a href="https://github.com/ellismarkf/matchsticks">~200 LOC</a> &amp; built in two days.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag lang">LESS</span>
@@ -116,36 +116,36 @@
             <span class="tag devops">webpack</span>
             <span class="tag be">express</span>
             <span class="tag be">socket.io</span>
-          </p>
+          </div>
         </div>
         <div class="project-entry" id="airdrum">
           <div>
             <p><strong><a href="http://wowmarkandray.com/airdrum">AirDrum</a></strong></p>
-            <span>Apr 2015</span>
+            <span class="entry-date">Apr 2015</span>
           </div>
           <p><a href="https://github.com/ellismarkf/airdrum">JS web-based motion-sensing virtual drum kit</a>. Built in 24 hrs. Won 2nd place at CodeRED MLH hackathon, Spring 2015.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag lang">LESS</span>
             <span class="tag devops">grunt</span>
             <span class="tag be">socket.io</span>
-          </p>
+          </div>
         </div>
         <div class="project-entry" id="transliteratr">
           <div>
             <p><strong><a href="http://transliteratr.herokuapp.com/">Transliteratr</a></strong></p>
-            <span>Jul 2014</span>
+            <span class="entry-date">Jul 2014</span>
           </div>
           <p>“Translates” user text input into saveable tiled mosaics of <a href="https://github.com/ellismarkf/mosaic">randomly generated colors</a>.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">ruby</span>
             <span class="tag lang">SASS</span>
             <span class="tag fe">erb</span>
             <span class="tag devops">yaml</span>
             <span class="tag be">sinatra</span>
-          </p>
+          </div>
         </div>
       </div>
     </section>
@@ -158,10 +158,10 @@
         <div class="work-entry" id="stardog">
           <div>
             <p><strong>Software Engineer</strong> — <a href="https://www.stardog.com/">Stardog Union</a>&nbsp;<em>(Remote)</em></p>
-            <span>Jan 2017 → Jul 2017</span>
+            <span class="entry-date">Jan 2017 → Jul 2017</span>
           </div>
           <p class="description"><em>→</em> Contributed to architecture, development and design of several front-end focused projects, including a <a href="https://marketplace.visualstudio.com/items?itemName=stardog-union.stardog-rdf-grammars">Visual Studio Code extension</a> for syntax highlighting and running queries against company’s flagship database; <em>→</em> and a serverless, responsive React web-app, leveraging Amazon Web Services for multi-factor authentication, user role and permission management, REST services, and database storage.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag lang">javascript</span>
             <span class="tag lang">typescript</span>
             <span class="tag lang">stylus</span>
@@ -179,15 +179,15 @@
             <span class="tag be">aws-lambda</span>
             <span class="tag be">aws-api-gateway</span>
             <span class="tag be">aws-cognito</span>
-          </p>
+          </div>
         </div>
         <div class="work-entry" id="citrusbyte">
           <div>
-            <p><strong>Front-End Engineer</strong> — <a href="https://citrusbyte.com/">Citrusbye</a>&nbsp;<em>(Remote)</em></p>
-            <span>Aug 2016 → Nov 2016</span>
+            <p><strong>Front-End Engineer</strong> — <a href="https://citrusbyte.com/">Citrusbyte</a>&nbsp;<em>(Remote)</em></p>
+            <span class="entry-date">Aug 2016 → Nov 2016</span>
           </div>
           <p class="description"><em>→</em> Led frontend development in a small squad of remote engineers focused on delivering modern, scalable, standards-compliant, responsive web-apps. <em>→</em> Implemented new client-side architecture and build setup using React, Redux, and Webpack that enabled faster development and component reuse. <em>→</em> Resolved 50% of documented UI bugs within a month of joining the team.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag lang">javascript</span>
             <span class="tag lang">LESS</span>
             <span class="tag fe">react</span>
@@ -198,16 +198,16 @@
             <span class="tag be">nodejs</span>
             <span class="tag be">express</span>
             <span class="tag be">rest-api</span>
-          </p>
+          </div>
         </div>
         <div class="work-entry" id="pros">
           <div>
             <p><strong>Software Engineer</strong> — <a href="http://www.pros.com/">Pros, INC</a>&nbsp;<em>(Houston, TX)</em></p>
-            <span>Nov 2014 → Aug 2016</span>
+            <span class="entry-date">Nov 2014 → Aug 2016</span>
           </div>
           <p class="description"><em>→</em> Assisted in building UI for big-data analysis software with 800k+ users worldwide. <em>→</em> Contributed to development of a boilerplate template based on newly implemented tech stack that decreased the time-to-productivity for new developers. <em>→</em> Worked closely with UX and Design teams to rapidly prototype and pitch proof-of-concepts for next-generation suite
 of products within company. <em>→</em> Helped extract common UI components into an internally-shared component library, to which I contributed several new components. <em>→</em> Leveraged Webpack to reduce average build time and CPU usage by 87.5% and 93%, respectively.</p>
-          <p>
+          <div class="tag-container">
             <span class="tag lang">javascript</span>
             <span class="tag lang">java</span>
             <span class="tag lang">LESS</span>
@@ -220,7 +220,7 @@ of products within company. <em>→</em> Helped extract common UI components int
             <span class="tag be">nodejs</span>
             <span class="tag be">express</span>
             <span class="tag be">rest-api</span>
-          </p>
+          </div>
         </div>
       </div>
     </section>
@@ -234,5 +234,6 @@ of products within company. <em>→</em> Helped extract common UI components int
       </div>
     </section>
     <p class="colophon">< /> with &#9829; by <a href="https://github.com/ellismarkf">ellismarkf</a></p>
+    <script src="./js/filter.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,900');
 
 /*        GLOBAL RESET             */
 html, body, div, span, applet, object, iframe,
@@ -28,8 +28,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  font-family: 'Source Code Pro', monospace;
-  font-size: .8rem;
+  font-family: monospace;
+  font-size: 1rem;
   padding: 30px;
   margin: 0 auto;
   max-width: 1200px;
@@ -62,7 +62,9 @@ a:visited {
   justify-content: space-between;
   align-items: flex-start;
 }
-
+.header h1 {
+  font-family:  'Source Code Pro', monospace;
+}
 @media (max-width: 604px) {
   .header nav {
     flex-direction: column-reverse;
@@ -175,8 +177,7 @@ section h2 {
   color: blue;
 }
 
-.project-entry div span,
-.work-entry div span {
+.entry-date {
   font-size: .8rem;
   font-style: italic;
   color: rgba(0, 0, 0, .2);
@@ -191,11 +192,16 @@ section h2 {
   bottom: -25px;
   float: right;
 }
-
+.project-entry .tag-container,
+.work-entry .tag-container {
+  display: initial;
+  color: white;
+  font-style: normal;
+}
 .tag {
   border-radius: 5px;
   color: white;
-  padding: 3px 5px;
+  padding: 5px;
   margin-top: 5px;
   display: inline-flex;
   align-items: center;
@@ -203,10 +209,10 @@ section h2 {
   font-size: .7rem;
 }
 
-/* .tag:hover {
+.tag:hover {
   cursor: pointer;
   filter: brightness(95%);
-} */
+}
 
 .code {
   background-color: purple;
