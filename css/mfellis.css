@@ -154,8 +154,8 @@ section h2 {
   border-top: none;
 }
 
-.project-entry div,
-.work-entry div {
+.project-title-container,
+.work-entry-title-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -194,9 +194,8 @@ section h2 {
 }
 .project-entry .tag-container,
 .work-entry .tag-container {
-  display: initial;
-  color: white;
-  font-style: normal;
+  margin-top: 6px;
+  cursor: default;
 }
 .tag {
   border-radius: 5px;
@@ -207,11 +206,7 @@ section h2 {
   align-items: center;
   justify-content: center;
   font-size: .7rem;
-}
-
-.tag:hover {
-  cursor: pointer;
-  filter: brightness(95%);
+  cursor: default;
 }
 
 .code {
