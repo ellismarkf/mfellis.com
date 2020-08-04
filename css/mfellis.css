@@ -195,7 +195,19 @@ section h2 {
   position: relative;
   bottom: -25px;
   float: right;
+  transition: filter 1s ease;
 }
+
+#about img:hover {
+  filter: 
+    drop-shadow(-40px 0px 0px red)
+    drop-shadow(-40px 0px 0px orange)
+    drop-shadow(-40px 0px 0px yellow)
+    drop-shadow(-40px 0px 0px green) 
+    drop-shadow(-40px 0px 0px blue)
+    drop-shadow(-40px 0px 0px violet);
+}
+
 .project-entry .tag-container,
 .work-entry .tag-container {
   margin-top: 6px;
