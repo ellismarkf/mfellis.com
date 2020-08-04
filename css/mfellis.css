@@ -56,53 +56,53 @@ a:visited {
   color: blue;
 }
 
-.header nav {
+header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
 }
-.header h1 {
+header h1 {
   font-family:  'Source Code Pro', monospace;
 }
 @media (max-width: 604px) {
-  .header nav {
+  header nav {
     flex-direction: column-reverse;
   }
-  .header ul {
+  header ul {
     margin-bottom: 20px;
   }
 }
 
-.header h1 {
+header h1 {
   color: blue;
   font-weight: 300;
   font-size: 3rem;
 }
 
-.header h1 strong {
+header h1 strong {
   font-weight: 900;
 }
 
-.header h1 em {
+header h1 em {
   font-weight: 300;
   color: rgba(0, 0, 0, .2);
 }
 
-.header ul {
+header ul {
   list-style: none;
 }
 
-.header ul li {
+header ul li {
   display: inline-block;
 }
 
-.header p {
+header p {
   margin-top: 1.5rem;
   line-height: 1.2rem;
 }
 
-.header p em {
+header p em {
   font-style: italic;
 }
 
@@ -170,7 +170,11 @@ section h2 {
 
 .project-entry div em,
 .work-entry div em {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .6);
+}
+
+.project-entry p em {
+  font-style: italic;
 }
 
 .work-entry .description em {
@@ -180,7 +184,7 @@ section h2 {
 .entry-date {
   font-size: .8rem;
   font-style: italic;
-  color: rgba(0, 0, 0, .2);
+  color: rgba(0, 0, 0, .6);
   line-height: 1.2rem;
 }
 
@@ -214,19 +218,20 @@ section h2 {
 }
 
 .lang {
-  background-color: royalblue;
+  background-color: darkblue;
 }
 
 .fe {
-  background-color: orange;
+  background-color: gold;
+  color: black;
 }
 
 .be {
-  background-color: green;
+  background-color: darkgreen;
 }
 
 .devops {
-  background-color: orangered;
+  background-color: #d23c04;
 }
 
 .colophon {

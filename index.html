@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/mfellis.css">
   </head>
   <body>
-    <div class="header">
+    <header>
       <nav>
         <h1><strong>mark</strong><em>|</em>ellis</h1>
         <ul>
@@ -22,7 +22,7 @@
           Software engineer, musician, filmmaker, horror enthusiast, dog person.
         </em>
       </p>
-    </div>
+    </header>
     <section id="about">
       <h2>about me</h2>
       <div class="section-body">
@@ -40,7 +40,7 @@
             <p><strong><a href="https://snakepit.now.sh" target="_blank">Snake</a></strong></p>
             <span class="entry-date">Jul 2017</span>
           </div>
-          <p>Online multiplayer Snake using WebSockets and vanilla JS. Implements snakes as <a href="https://github.com/ellismarkf/snake/blob/master/snaque.js" target="_blank">circular buffers</a> with O(1) reads and writes.</p>
+          <p>Online multiplayer Snake using WebSockets and vanilla JS. Implements snakes as <a href="https://github.com/ellismarkf/snake/blob/master/snaque.js" target="_blank">circular buffers</a> with <em>O(1)</em> reads and writes.</p>
           <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
@@ -53,18 +53,17 @@
             <p><strong><a href="https://mineswept.now.sh/" target="_blank">Minesweeper</a></strong></p>
             <spa class="entry-date"n>Jun 2017</span>
           </div>
-          <p>The classic game of luck and logic, but with the ability to design and share custom minefields. Node <a href="https://github.com/ellismarkf/minesweeper-api" target="_blank">backend API</a> deployed on Heroku, and a React <a href="https://github.com/ellismarkf/minesweeper" target="_blank">client-side application</a> deployed with <a href="https://zeit.co/now" target="_blank">Now</a>.</p>
+          <p>The classic game of luck and logic, but with the ability to design and share custom minefields. Node <a href="https://github.com/ellismarkf/minesweeper-api" target="_blank">backend API</a> deployed on <a href="https://www.heroku.com/home" target="_blank">Heroku</a>, and a React <a href="https://github.com/ellismarkf/minesweeper" target="_blank">client-side application</a> deployed with <a href="https://vercel.com/home" target="_blank">Vercel</a>.</p>
           <div class="tag-container">
             <span class="tag code">code</span>
             <span class="tag lang">javascript</span>
             <span class="tag fe">inferno-js</span>
             <span class="tag devops">jest</span>
             <span class="tag devops">heroku</span>
-            <span class="tag devops">now</span>
+            <span class="tag devops">vercel</span>
             <span class="tag devops">circle-ci</span>
             <span class="tag be">postgresql</span>
             <span class="tag be">express</span>
-            <span class="tag be">rest-api</span>
           </div>
         </div>
         <div class="project-entry" id="wedding">
@@ -82,23 +81,6 @@
             <span class="tag devops">babel</span>
             <span class="tag devops">webpack</span>
             <span class="tag be">google-sheets-api</span>
-          </div>
-        </div>
-        <div class="project-entry" id="brainforest">
-          <div class="project-title-container">
-            <p><strong><a href="https://github.com/ellismarkf/brainforest" target="_blank">Brainforest</a></strong></p>
-            <span class="entry-date">Mar 2016</span>
-          </div>
-          <p>Reference implementation of <a href="https://developers.braintreepayments.com/guides/drop-in/javascript/v2" target="_blank">Braintree’s Drop-In UI</a>, built in a declarative paradigm using React and Redux.</p>
-          <div class="tag-container">
-            <span class="tag code">code</span>
-            <span class="tag lang">javascript</span>
-            <span class="tag fe">react</span>
-            <span class="tag fe">redux</span>
-            <span class="tag devops">webpack</span>
-            <span class="tag be">express</span>
-            <span class="tag be">rest-api</span>
-            <span class="tag be">braintree</span>
           </div>
         </div>
         <div class="project-entry" id="matchsticks">
@@ -168,12 +150,12 @@
           <div class="tag-container">
             <span class="tag lang">javascript</span>
             <span class="tag lang">typescript</span>
+            <span class="tag lang">java</span>
             <span class="tag fe">react</span>
             <span class="tag fe">redux</span>
             <span class="tag devops">create-react-app</span>
             <span class="tag devops">webpack</span>
             <span class="tag devops">jest</span>
-            <span class="tag devops">enzyme</span>
             <span class="tag devops">jenkins</span>
             <span class="tag be">spring-boot</span>
           </div>
@@ -189,21 +171,15 @@
           <div class="tag-container">
             <span class="tag lang">javascript</span>
             <span class="tag lang">typescript</span>
-            <span class="tag lang">stylus</span>
             <span class="tag fe">react</span>
             <span class="tag fe">semantic-ui-react</span>
+            <span class="tag fe">stylus</span>
             <span class="tag devops">create-react-app</span>
             <span class="tag devops">jest</span>
             <span class="tag devops">enzyme</span>
             <span class="tag devops">circle-ci</span>
-            <span class="tag be">nodejs</span>
             <span class="tag be">express</span>
-            <span class="tag be">rest-api</span>
             <span class="tag be">aws</span>
-            <span class="tag be">aws-dynamodb</span>
-            <span class="tag be">aws-lambda</span>
-            <span class="tag be">aws-api-gateway</span>
-            <span class="tag be">aws-cognito</span>
           </div>
         </div>
         <div class="work-entry" id="citrusbyte">
@@ -220,9 +196,7 @@
             <span class="tag fe">redux-saga</span>
             <span class="tag devops">webpack</span>
             <span class="tag devops">ansible</span>
-            <span class="tag be">nodejs</span>
             <span class="tag be">express</span>
-            <span class="tag be">rest-api</span>
           </div>
         </div>
         <div class="work-entry" id="pros">
@@ -246,9 +220,7 @@
             <span class="tag fe">redux-saga</span>
             <span class="tag devops">webpack</span>
             <span class="tag devops">docker</span>
-            <span class="tag be">nodejs</span>
             <span class="tag be">express</span>
-            <span class="tag be">rest-api</span>
           </div>
         </div>
       </div>
@@ -262,6 +234,6 @@
         </p>
       </div>
     </section>
-    <p class="colophon">< /> with &#9829; by <a href="https://github.com/ellismarkf" target="_blank">ellismarkf</a></p>
+    <footer class="colophon">< /> with &#9829; by <a href="https://github.com/ellismarkf" target="_blank">ellismarkf</a></footer>
   </body>
 </html>
