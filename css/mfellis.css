@@ -162,6 +162,11 @@ section h2 {
   align-items: flex-start;
 }
 
+.work-entry .employer-line {
+  margin-top: 0px;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 660px) {
   .work-entry div {
     flex-direction: column;
@@ -177,7 +182,20 @@ section h2 {
   font-style: italic;
 }
 
-.work-entry .description em {
+.work-entry  ul {
+  list-style: circle;
+  max-width: 85%;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+.work-entry  ul li {
+  padding-left: 8px;
+  margin-top: 16px;
+}
+
+.work-entry  ul li::marker {
+  content: '→';
   color: blue;
 }
 
@@ -210,7 +228,7 @@ section h2 {
 
 .project-entry .tag-container,
 .work-entry .tag-container {
-  margin-top: 6px;
+  margin-top: 16px;
   cursor: default;
 }
 .tag {
