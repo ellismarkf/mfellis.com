@@ -142,9 +142,14 @@ section h2 {
 
 .project-entry,
 .work-entry {
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-top: 2px solid rgba(0, 0, 0, .1);
   padding-top: 1rem;
+}
+
+#jpmc1 {
+  margin-top: 1rem;
+  border: none;
 }
 
 .project-entry:first-child,
@@ -162,9 +167,9 @@ section h2 {
   align-items: flex-start;
 }
 
-.work-entry .employer-line {
+.work-entry .title-line {
   margin-top: 0px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 660px) {
