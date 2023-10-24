@@ -26,6 +26,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+:root {
+  --orange: #d23c04;
+  --yellow: gold;
+  --green: darkgreen;
+  --blue: darkblue;
+  --violet: purple;
+
+}
 body {
   line-height: 1;
   font-family: monospace;
@@ -223,12 +231,11 @@ section h2 {
 
 #about img:hover {
   filter: 
-    drop-shadow(-40px 0px 0px red)
-    drop-shadow(-40px 0px 0px orange)
-    drop-shadow(-40px 0px 0px yellow)
-    drop-shadow(-40px 0px 0px green) 
-    drop-shadow(-40px 0px 0px blue)
-    drop-shadow(-40px 0px 0px violet);
+    drop-shadow(-40px 0px 0px var(--orange))
+    drop-shadow(-40px 0px 0px var(--yellow))
+    drop-shadow(-40px 0px 0px var(--green)) 
+    drop-shadow(-40px 0px 0px var(--blue))
+    drop-shadow(-40px 0px 0px var(--violet));
 }
 
 .project-entry .tag-container,
