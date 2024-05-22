@@ -179,6 +179,9 @@ section h2 {
 }
 
 @media (max-width: 660px) {
+  section {
+    flex-direction: column;
+  }
   .work-entry div {
     flex-direction: column;
   }
