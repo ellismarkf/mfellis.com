@@ -240,7 +240,7 @@ section h2 {
 
 .project-entry .tag-container,
 .work-entry .tag-container {
-  margin-top: 16px;
+  margin-top: 10px;
   cursor: default;
 }
 .tag {
