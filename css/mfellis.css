@@ -256,6 +256,12 @@ section h2 {
   line-height: 1;
 }
 
+p span.tag {
+  position: relative;
+  top: -2px;
+  margin: 0px;
+}
+
 .code {
   background-color: purple;
 }
