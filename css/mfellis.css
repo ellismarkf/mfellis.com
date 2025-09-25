@@ -142,6 +142,12 @@ section h2 {
   margin-top: 0;
 }
 
+#about p:last-of-type {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(0, 0, 0, .1);
+}
+
 .section-body p strong {
   font-weight: 700;
 }
@@ -151,11 +157,6 @@ section h2 {
   margin-top: 2rem;
   border-top: 2px solid rgba(0, 0, 0, .1);
   padding-top: 1rem;
-}
-
-#jpmc1 {
-  margin-top: 1rem;
-  border: none;
 }
 
 .project-entry:first-child,
@@ -236,6 +237,10 @@ section h2 {
     drop-shadow(-40px 0px 0px var(--green)) 
     drop-shadow(-40px 0px 0px var(--blue))
     drop-shadow(-40px 0px 0px var(--violet));
+}
+
+#about p:last-child {
+  margin-top: 2rem;
 }
 
 .project-entry .tag-container,
